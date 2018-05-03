@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/hello_block/ip/hello_block_proc_sys_reset_0_0/sim/hello_block_proc_sys_reset_0_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_microblaze_0_0/sim/hello_block_microblaze_0_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_microblaze_0_axi_intc_0/sim/hello_block_microblaze_0_axi_intc_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_mdm_1_0/sim/hello_block_mdm_1_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_axi_timer_0_0/sim/hello_block_axi_timer_0_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_axi_uartlite_0_0/sim/hello_block_axi_uartlite_0_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_dlmb_v10_0/sim/hello_block_dlmb_v10_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_ilmb_v10_0/sim/hello_block_ilmb_v10_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_dlmb_bram_if_cntlr_0/sim/hello_block_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/hello_block/ip/hello_block_ilmb_bram_if_cntlr_0/sim/hello_block_ilmb_bram_if_cntlr_0.vhd" \
+
+nosort

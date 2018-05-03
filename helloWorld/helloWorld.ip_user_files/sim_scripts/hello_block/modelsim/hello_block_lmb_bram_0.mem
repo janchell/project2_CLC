@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 2117270 on Tue Jan 30 15:32:00 MST 2018
+// Vivado v2017.4.1 (64-bit)
+// Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+// Created on Wednesday May 02, 2018 - 04:16:53 pm, from:
+//
+//     Map file     - C:\Users\Jonathan\Desktop\proj2\hello_world\helloWorld\helloWorld.srcs\sources_1\bd\hello_block\hello_block.bmm
+//     Data file(s) - c:/Users/Jonathan/Desktop/proj2/hello_world/helloWorld/helloWorld.srcs/sources_1/bd/hello_block/ip/hello_block_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'hello_block_i_microblaze_0.hello_block_i_microblaze_0_local_memory_lmb_bram_128K_1_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

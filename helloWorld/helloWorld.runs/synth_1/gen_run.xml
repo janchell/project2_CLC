@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1525304285">
+  <File Type="PA-TCL" Name="hello_block_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="hello_block_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="hello_block_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="hello_block_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="hello_block_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="hello_block_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="hello_block_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="hello_block_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="hello_block_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/hello_block/hello_block.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/hello_block_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/hello_block/hdl/hello_block_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1525302860"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/hello_block/ip/hello_block_mig_7series_0_0/mig_a.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="hello_block_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="hello_block_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_mig_7series_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_proc_sys_reset_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_axi_timer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_microblaze_0_xlconcat_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_ds_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_pc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_ds_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_pc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_us_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_cc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_ds_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_pc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_ds_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_us_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_pc_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_auto_us_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="hello_block_lmb_bram_0"/>
+</GenRun>
